@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void funcio(View e){
+    public void canviarText(View e){
         setContentView(R.layout.activity_main);
         TextView textView = (TextView)findViewById(R.id.textExemple);
         textView.setText("HelloWorld!");
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void funcio2(View e){
+    public void alerta(View e){
         setContentView(R.layout.activity_main);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Alert exemple");
