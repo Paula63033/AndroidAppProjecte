@@ -2,12 +2,14 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+
+import com.example.myapplication.models.Game;
 
 public class MainActivity extends AppCompatActivity {
+
+    Game game = new Game();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,15 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void canviarText(View e){
-        setContentView(R.layout.activity_main);
-        TextView textView = (TextView)findViewById(R.id.textExemple);
-        textView.setText("HelloWorld!");
-        textView.setTextSize(80);
-
-    }
-
     public void alerta(View e){
+
         setContentView(R.layout.activity_main);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Alert exemple");
