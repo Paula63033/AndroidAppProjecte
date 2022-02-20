@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Ajustes"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_ajustes" />
+        <activity
             android:name=".TermsConditionsPage"
             android:exported="false" />
         <activity
             android:name=".AboutPage"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">

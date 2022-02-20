@@ -21,8 +21,10 @@
         <entry key="app/src/main/res/layout/activity_terms_conditions_page.xml" value="0.165" />
         <entry key="app/src/main/res/layout/bg_gradient.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_splash_screen.xml" value="0.10989583333333333" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.1" />
         <entry key="app/src/main/res/layout/splash_background.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.335" />
       </map>
     </option>
   </component>

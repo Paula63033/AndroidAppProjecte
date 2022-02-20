@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.example.myapplication.models.Game;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -30,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();*/
             }
         });
+
+        final Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Ajustes.class));
+            }
+        });
+
     }
 
     public void obrirAbout(View e){
