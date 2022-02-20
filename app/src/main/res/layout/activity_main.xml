@@ -76,4 +76,24 @@
         app:layout_constraintVertical_bias="0.032"
         app:srcCompat="@drawable/cartas" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:background="@color/design_default_color_primary"
+        android:contentDescription="fab"
+        android:foreground="@drawable/informacion"
+        android:src="@drawable/icono"
+        app:backgroundTint="#50C3F6"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:rippleColor="@color/blau" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

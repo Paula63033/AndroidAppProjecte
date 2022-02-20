@@ -11,6 +11,8 @@
         <entry key="app/src/main/res/drawable/efecto_btn.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
         <entry key="app/src/main/res/font/ffile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/about.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24375" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.10989583333333333" />
         <entry key="app/src/main/res/layout/activity_splash_screen2.xml" value="0.10989583333333333" />
@@ -29,5 +31,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.24375" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -4,7 +4,7 @@ public class Game {
     private Player actualUser;
 
     public void partida(){
-
+        //@TODO
     }
 
     public Player getActualUser() {

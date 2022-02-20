@@ -15,6 +15,9 @@ public class Player {
         return name;
     }
 
+    //@TODO
+    //agafar dades de bbdd de usuaris.
+
     public void setName(String name) {
         this.name = name;
     }
