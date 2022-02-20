@@ -6,4 +6,12 @@ public class Game {
     public void partida(){
 
     }
+
+    public Player getActualUser() {
+        return actualUser;
+    }
+
+    public void setActualUser(Player actualUser) {
+        this.actualUser = actualUser;
+    }
 }
