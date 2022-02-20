@@ -24,7 +24,6 @@
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="colorPrimary">#3393FF</item>
         <item name="colorPrimaryDark">#012752</item>
         <item name="colorAccent">#320152</item>

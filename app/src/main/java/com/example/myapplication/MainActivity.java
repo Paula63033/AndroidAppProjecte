@@ -2,15 +2,12 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.view.View;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.Toast;
 
 import com.example.myapplication.models.Game;
-import com.example.myapplication.models.SplashScreenActivityFinal;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        finish();
         setContentView(R.layout.activity_main);
+
     }
 
     public void alerta(View e){
@@ -33,9 +30,5 @@ public class MainActivity extends AppCompatActivity {
         builder.create();
         builder.show();
 
-    }
-
-    public void presionaBoton(View view) {
-        setContentView(R.layout.activity_main);
     }
 }
